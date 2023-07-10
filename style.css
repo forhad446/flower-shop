@@ -55,30 +55,36 @@ header {
 .Featured-container {
     padding: 170px 240px 128px;
 }
+
 .futured-content {
     text-align: center;
 }
+
 .futured-title {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 24px;
 }
+
 .futured-description {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
+
 .futured-photo {
     margin-top: 48px;
     display: flex;
     justify-content: space-around;
 }
+
 .photo-list {
     text-align: center;
 
 }
+
 .photo-area {
     width: 300px;
     height: 400px;
@@ -88,18 +94,51 @@ header {
     margin-right: 20px;
     background: rgba(167, 33, 98, 0.15);
 }
+
 .photo-area:last-child {
     margin-right: 0;
 }
+
 #photos2 {
     background: rgba(5, 151, 160, 0.15);
 }
+
 #photos3 {
     background: rgba(71, 125, 17, 0.15);
 }
+
 .photo-title {
     color: #272727;
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
+}
+
+/* hot-deal-container style start */
+.hot-deal-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.hot-deal-content {
+    text-align: center;
+}
+
+.hot-deal-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px ;
+    margin-bottom: 52px ;
 }
