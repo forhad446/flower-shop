@@ -4,7 +4,10 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-
+body{
+    max-width: 1480px ;
+    margin: 0 auto ;
+}
 .primary-btn {
     color: #FFF;
     font-size: 20px;
@@ -48,7 +51,7 @@ header {
 }
 
 .banner-img {
-    width: 550px;
+    width: 100% ;
 }
 
 /* Featured-container style start */
